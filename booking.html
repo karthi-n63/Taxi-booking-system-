@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taxi Booking System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Book a Taxi</h2>
+    <form action="booking.php" method="POST">
+        <input type="text" name="pickup" placeholder="Pickup Location" required>
+        <input type="text" name="drop" placeholder="Drop Location" required>
+        <input type="datetime-local" name="booking_date" required>
+        <button type="submit">Book Now</button>
+    </form>
+   <br> <a href="view_booking.php">View booking</a>
+   
+</body>
+</html>

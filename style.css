@@ -1,0 +1,132 @@
+Body {
+    Font-family: Arial, sans-serif;
+    Text-align: center;
+    Background-color: #f4f4f4;
+    Margin: 0;
+    Padding: 0;
+}
+
+H2 {
+    Color: #333;
+}
+
+Form {
+    Background: white;
+    Padding: 20px;
+    Border-radius: 10px;
+    Display: inline-block;
+    Margin-top: 20px;
+}
+
+Input, button {
+    Display: block;
+    Width: 100%;
+    Margin: 10px 0;
+    Padding: 10px;
+}
+
+Button {
+    Background: #28a745;
+    Color: white;
+    Border: none;
+    Cursor: pointer;
+}
+
+Button:hover {
+    Background: #218838;
+}
+
+Nav a {
+    Margin: 10px;
+    Text-decoration: none;
+    Color: #007bff;
+}
+.cancel-table
+{
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* Container for the page content */
+    .container {
+        width: 80%;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+    }
+    .container::after{
+        content: "";
+        display:table;
+        clear: both;
+       }
+    
+    /* Page Title */
+    h2 {
+        text-align: center;
+        color: #333;
+    }
+    
+    /* Table Styling */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+    
+    th, td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+    
+    th {
+        background-color: #4CAF50;
+        color: white;
+    }
+    
+    tr:hover {
+        background-color: #f2f2f2;
+    }
+    
+    table td {
+        font-size: 14px;
+        color: #333;
+    }
+    
+    /* Buttons and Actions */
+    button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+    }
+    
+    button:hover {
+        background-color: #45a049;
+    }
+    
+    /* Error or No Records Message */
+    .no-records {
+        text-align: center;
+        color: #888;
+        font-size: 16px;
+        padding: 20px;
+    }
+    
+    /* Footer and Page Bottom */
+    footer {
+        text-align: center;
+        padding: 10px;
+        margin-top: 40px;
+        background-color: #333;
+        color: white;
+    }
+}
